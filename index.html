@@ -76,20 +76,44 @@
             What does javascript event loop do?
         </h3>
         <h5 class="m-4">
+            The event loop is a process that monitors both the callback & call stack. If a call stack is not blank, the
+            event loop waits until it is blank and run the next function from the callback to the call stack.
             Event loop checks a call stack. If it's find empty a new function added from an event queue. If there is
             not, then running function call. By any kind of event provider the event loop works.
-            Loop starts handling the messages on a queue, starting with the oldest one.
-
-
-
+            Loop starts handling the messages on a queue, starting with the oldest one. During the phase of an Event
+            Loop performs a internal operations of any function call. there is no direct work on this phase, or this
+            length.
         </h5>
+
+
+
+
+        <h3 class="m-3">
+            Difference between local stroage and session stroage;
+        </h3>
+        <h5 class="m-4">
+            Local stroage is not deleted If not deleted manually; Session stroage is automatically deleted.Main
+            difference is how long the data is saved for and who the data is accessible to. Local storage data has not
+            an expiration date but session storage has an expire date.session storage data is lost when the browser tab
+            is closed. But Local storage data is saved.
+            In application tab in the first serial is local stroage and the second serial is session storage.
+        </h5>
+
+
+
+
+
+
+
+
+
+
     </section>
 
 
 
 
-    <!-- Local stroge vs Session stroage
-        Local stroage is not deleted If not deleted manually; Session stroage is automatically deleted -->
+
     <footer></footer>
 
     <!-- add javascript  file  -->
